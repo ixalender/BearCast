@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.bearcast</id>
+    <name>BearCast</name>
+    <version>1.0</version>
+    <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
+
+    <description><![CDATA[
+      Plugin for IntelliJ platform for saving pieces of source code to Bear app.
+    ]]></description>
+
+    <idea-version since-build="173.0" until-build="191.*"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij"></extensions>
+
+    <application-components>
+        <component>
+            <implementation-class>com.bearcast.BearCast</implementation-class>
+        </component>
+    </application-components>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
