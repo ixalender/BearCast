@@ -21,6 +21,19 @@
     </application-components>
 
     <actions>
+        <group id="BearCast.Menu"
+               text="BearCast"
+               description="BearCast menu"
+               class="com.bearcast.CustomDefaultActionGroup"
+               popup="true">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <action id="BearCast.CastAction"
+                    class="com.bearcast.CastAction"
+                    text="Cast to Bear"
+                    description="Cast selected text to Bear">
+                <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift B" />
+            </action>
+        </group>
     </actions>
 
 </idea-plugin>
