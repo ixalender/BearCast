@@ -8,6 +8,10 @@ import org.apache.http.client.utils.URIBuilder
 
 class CastAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
+        if (!System.getProperty("os.name").startsWith("Mac OS")) {
+            return
+        }
+
         val ed = e.getData(CommonDataKeys.EDITOR) ?: return
         val file = e.getData(CommonDataKeys.PSI_FILE) ?: return
         val project = e.getData(CommonDataKeys.PROJECT) ?: return
