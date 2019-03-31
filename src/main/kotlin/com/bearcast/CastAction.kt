@@ -17,7 +17,7 @@ class CastAction : AnAction() {
         val project = e.getData(CommonDataKeys.PROJECT) ?: return
 
         val language = file.language.displayName.toLowerCase()
-        val textTemplate = """```$language${System.lineSeparator()}%s```"""
+        val textTemplate = """```$language${System.lineSeparator()}%s${System.lineSeparator()}```"""
 
         val query = URIBuilder(ConfigRepo.load().bear.createUrl).apply {
             addParameter("title", "${project.name} - ${file.name}")
