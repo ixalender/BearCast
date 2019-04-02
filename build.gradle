@@ -36,7 +36,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:1.3.21"
     compile "org.jetbrains.kotlin:kotlin-reflect:1.3.21"
-    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.1-1'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.4'
     compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.4'
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.4'
 }
@@ -49,4 +49,15 @@ intellij {
 sourceSets {
     main.java.srcDirs += 'src/main/kotlin'
     main.kotlin.srcDirs = ['src/main/kotlin']
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'BearCast Plugin',
+                   'Implementation-Version': version,
+                   'Main-Class': 'com.bearcast.BearCast'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
 }
