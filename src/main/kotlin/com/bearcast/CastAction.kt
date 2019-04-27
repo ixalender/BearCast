@@ -10,8 +10,8 @@ import org.apache.http.client.utils.URIBuilder
 class CastAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
         if (!System.getProperty("os.name").startsWith("Mac OS")) {
-            Notification(e.project, NotificationType.WARNING).apply {
-                notify("Sorry, but using this plugin may have sense only on macOS.")
+            Popup(e.project, NotificationType.WARNING).apply {
+                show("Sorry, but using this plugin may have sense only on macOS.")
                 return
             }
         }
@@ -20,8 +20,8 @@ class CastAction : AnAction() {
         val file = e.getData(CommonDataKeys.PSI_FILE) ?: return
         val project = e.getData(CommonDataKeys.PROJECT) ?: return
 
-        val selected = ed.selectionModel.selectedText ?: Notification(e.project).apply {
-                notify("Please, select the text to export to the Bear.")
+        val selected = ed.selectionModel.selectedText ?: Popup(e.project).apply {
+                show("Please, select the text to export to the Bear.")
                 return
             }
 

@@ -5,7 +5,7 @@ import com.intellij.notification.Notification
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.project.Project
 
-class Notification (
+class Popup (
     project: Project? = null,
     type: NotificationType = NotificationType.INFORMATION
 ) {
@@ -17,7 +17,7 @@ class Notification (
          this.type = type
     }
 
-    fun notify(text: String) {
+    fun show(text: String) {
         Notification(
             APP_NAME,
             APP_NAME,
