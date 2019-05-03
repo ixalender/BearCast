@@ -25,12 +25,14 @@ class CastAction : AnAction() {
                 return
             }
 
+        val code = Code(selected as String)
+
         val language = file.language.displayName.toLowerCase()
         val textTemplate = """```$language${System.lineSeparator()}%s${System.lineSeparator()}```"""
 
         val query = URIBuilder(ConfigRepo.load().bear.createUrl).apply {
             addParameter("title", "${project.name} - ${file.name}")
-            addParameter("text", textTemplate.format(selected))
+            addParameter("text", textTemplate.format(code.cleaned))
             addParameter("tags", listOf(language).joinToString(","))
             build()
         }
