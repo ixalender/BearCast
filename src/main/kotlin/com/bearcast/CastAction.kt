@@ -20,12 +20,15 @@ class CastAction : AnAction() {
         val file = e.getData(CommonDataKeys.PSI_FILE) ?: return
         val project = e.getData(CommonDataKeys.PROJECT) ?: return
 
-        val selected = ed.selectionModel.selectedText ?: Popup(e.project).apply {
+        val selected = ed.selectionModel.selectedText?.trim()
+        if (selected == null || selected.isEmpty()) {
+            Popup(e.project).apply {
                 show("Please, select the text to export to the Bear.")
-                return
             }
+            return
+        }
 
-        val code = Code(selected as String)
+        val code = Code(selected)
 
         val language = file.language.displayName.toLowerCase()
         val textTemplate = """```$language${System.lineSeparator()}%s${System.lineSeparator()}```"""

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.bearcast</id>
     <name>BearCast</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,11 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    Initial release of the plugin.
+    <h2>v1.2</h2>
+    <ul>
+        <li>fix: prevent to make a new Bear's note when there is not selected text</li>
+        <li>fix: add removing excess indentations from exported code if it's possible</li>
+    </ul>
     ]]></change-notes>
 
     <idea-version since-build="173.0" until-build="191.*"/>
