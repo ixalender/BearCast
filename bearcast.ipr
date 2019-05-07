@@ -1,79 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac"/>
     <resourceExtensions>
-      <entry name=".+\.(properties|xml|html|dtd|tld)"/>
-      <entry name=".+\.(gif|png|jpeg|jpg)"/>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
     </resourceExtensions>
     <wildcardResourcePatterns>
-      <entry name="!?*.class"/>
-      <entry name="!?*.scala"/>
-      <entry name="!?*.groovy"/>
-      <entry name="!?*.java"/>
+      <entry name="!?*.class" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="false" useClasspath="true"/>
-    <bytecodeTargetLevel target="1.8"/>
+    <bytecodeTargetLevel target="1.8">
+      <module name="bearcast.main" target="1.8" />
+      <module name="bearcast.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">
-    <module2copyright/>
+    <module2copyright />
   </component>
   <component name="DependencyValidationManager">
-    <option name="SKIP_IMPORT_STATEMENTS" value="false"/>
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false"/>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
   <component name="GradleUISettings">
-    <setting name="root"/>
+    <setting name="root" />
   </component>
   <component name="GradleUISettings2">
-    <setting name="root"/>
+    <setting name="root" />
   </component>
-  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C"/>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
   <component name="JavadocGenerationManager">
-    <option name="OUTPUT_DIRECTORY"/>
-    <option name="OPTION_SCOPE" value="protected"/>
-    <option name="OPTION_HIERARCHY" value="true"/>
-    <option name="OPTION_NAVIGATOR" value="true"/>
-    <option name="OPTION_INDEX" value="true"/>
-    <option name="OPTION_SEPARATE_INDEX" value="true"/>
-    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true"/>
-    <option name="OPTION_DEPRECATED_LIST" value="true"/>
-    <option name="OTHER_OPTIONS" value=""/>
-    <option name="HEAP_SIZE"/>
-    <option name="LOCALE"/>
-    <option name="OPEN_IN_BROWSER" value="true"/>
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectCodeStyleConfiguration">
+    <option name="USE_PER_PROJECT_SETTINGS" value="true" />
+    <code_scheme name="Project" version="173">
+      <JetCodeStyleSettings>
+        <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+      </JetCodeStyleSettings>
+      <codeStyleSettings language="kotlin">
+        <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+      </codeStyleSettings>
+    </code_scheme>
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bearcast.iml" filepath="$PROJECT_DIR$/bearcast.iml"/>
+      <module fileurl="file://$PROJECT_DIR$/bearcast.iml" filepath="$PROJECT_DIR$/bearcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bearcast.main.iml" filepath="$PROJECT_DIR$/bearcast.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bearcast.test.iml" filepath="$PROJECT_DIR$/bearcast.test.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="1.8">
-    <output url="file://$PROJECT_DIR$/out"/>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
-    <option name="mySupportsUserInfoFilter" value="true"/>
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs=""/>
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.4/a9a71ec1aa37da47db168fede9a4a5fb5e374320/jackson-core-2.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.4/852f37ebcdd5f504a9d6bbf967cf84fb5984294d/jackson-core-2.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.4/498bbc3b94f566982c7f7c6d4d303fce365529be/jackson-databind-2.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.4/36aa90e99b8c73d43e66daadf50a96b83cbd09d3/jackson-databind-2.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.9.4/3edaa0c22529b6c1c095f6e3cafc6d54e8709538/jackson-dataformat-yaml-2.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.9.4/2812e638be5eced67e192864bbb02de7e4542b03/jackson-dataformat-yaml-2.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.9.4/edf756e3e6f9a15b825442d66df3f70ddc1c8c89/jackson-module-kotlin-2.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.9.4/f8ead5b4638bb6a353bef8e8a243c397aeaffc11/jackson-module-kotlin-2.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.21">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/d0d5ff2ac2ebd8a42697af41e20fc225a23c5d3b/kotlin-reflect-1.3.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/a30e058efd57c50515227c894abed1db20edb2b5/kotlin-reflect-1.3.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21" type="kotlin.common">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.21">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains:annotations:13.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.yaml:snakeyaml:1.18">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.18/e4a441249ade301985cb8d009d4e4a72b85bf68e/snakeyaml-1.18.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.18/17af1c263c33176842715cbfa677e14a5ad862dd/snakeyaml-1.18-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
-          <settings/>
+          <settings />
         </UIState>
       </state>
       <state key="Copyright.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
         </UIState>
       </state>
@@ -83,7 +209,7 @@
             <SplitterProportionsDataImpl>
               <option name="proportions">
                 <list>
-                  <option value="0.2"/>
+                  <option value="0.2" />
                 </list>
               </option>
             </SplitterProportionsDataImpl>
@@ -94,9 +220,9 @@
       <state key="ScopeChooserConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
-          <settings/>
+          <settings />
         </UIState>
       </state>
     </states>
