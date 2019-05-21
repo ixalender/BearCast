@@ -20,11 +20,21 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij"></extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.bearcast.settings.BearCastUserConfig" overrides="false"/>
+        <applicationConfigurable
+                groupId="tools"
+                displayName="BearCast"
+                id="preferences.BearCastConfigurable"
+                instance="com.bearcast.settings.BearCastUserConfig"/>
+    </extensions>
 
     <application-components>
         <component>
             <implementation-class>com.bearcast.BearCast</implementation-class>
+        </component>
+        <component>
+            <implementation-class>com.bearcast.settings.BearCastUserConfig</implementation-class>
         </component>
     </application-components>
 
