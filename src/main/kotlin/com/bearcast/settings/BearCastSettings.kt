@@ -1,3 +1,3 @@
 package com.bearcast.settings
 
-data class  BearCastSettings(internal var projectNameTag: Boolean = false)
+data class  BearCastSettings(var addProjectNameTag: Boolean = false)

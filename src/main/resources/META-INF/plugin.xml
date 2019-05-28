@@ -16,17 +16,17 @@
     </ul>
     ]]></change-notes>
 
-    <idea-version since-build="173.0" until-build="191.*"/>
+    <idea-version since-build="173.0"/>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.bearcast.settings.BearCastUserConfig" overrides="false"/>
+        <applicationService serviceImplementation="com.bearcast.settings.BearCastUserSettings" overrides="false"/>
         <applicationConfigurable
                 groupId="tools"
                 displayName="BearCast"
                 id="preferences.BearCastConfigurable"
-                instance="com.bearcast.settings.BearCastUserConfig"/>
+                instance="com.bearcast.settings.BearCastConfigurable"/>
     </extensions>
 
     <application-components>
@@ -34,7 +34,7 @@
             <implementation-class>com.bearcast.BearCast</implementation-class>
         </component>
         <component>
-            <implementation-class>com.bearcast.settings.BearCastUserConfig</implementation-class>
+            <implementation-class>com.bearcast.settings.BearCastConfigurable</implementation-class>
         </component>
     </application-components>
 

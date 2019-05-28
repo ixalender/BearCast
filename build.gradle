@@ -16,7 +16,7 @@ plugins {
 
 patchPluginXml {
     sinceBuild '173.*'
-    untilBuild '191.*'
+//    untilBuild '191.*'
 }
 
 apply plugin: 'idea'
