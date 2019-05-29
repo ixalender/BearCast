@@ -1,5 +1,6 @@
 package com.bearcast
 
+import com.bearcast.settings.BearCastUserSettings
 import com.intellij.ide.BrowserUtil
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.actionSystem.AnAction
@@ -16,11 +17,13 @@ class CastAction : AnAction() {
             }
         }
 
-        val ed = e.getData(CommonDataKeys.EDITOR) ?: return
         val file = e.getData(CommonDataKeys.PSI_FILE) ?: return
         val project = e.getData(CommonDataKeys.PROJECT) ?: return
 
-        val selected = ed.selectionModel.selectedText?.trim()
+        val selected = with(e.getData(CommonDataKeys.EDITOR) ?: return) {
+            selectionModel.selectedText?.trim()
+        }
+
         if (selected == null || selected.isEmpty()) {
             Popup(e.project).apply {
                 show("Please, select the text to export to the Bear.")
@@ -36,7 +39,15 @@ class CastAction : AnAction() {
         val query = URIBuilder(ConfigRepo.load().bear.createUrl).apply {
             addParameter("title", "${project.name} - ${file.name}")
             addParameter("text", textTemplate.format(code.cleaned))
-            addParameter("tags", listOf(language).joinToString(","))
+            addParameter(
+                "tags",
+                mutableListOf(language).also {
+                    "projects/${project.name}".takeIf{
+                        BearCastUserSettings.instance.isAddProjectNameTag
+                    }?.let(it::add)
+                }.joinToString(",")
+            )
+
             build()
         }
 
