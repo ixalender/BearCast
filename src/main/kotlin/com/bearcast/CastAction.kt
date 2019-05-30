@@ -37,16 +37,17 @@ class CastAction : AnAction() {
         val textTemplate = """```$language${System.lineSeparator()}%s${System.lineSeparator()}```"""
 
         val query = URIBuilder(ConfigRepo.load().bear.createUrl).apply {
-            addParameter("title", "${project.name} - ${file.name}")
-            addParameter("text", textTemplate.format(code.cleaned))
-            addParameter(
-                "tags",
-                mutableListOf(language).also {
+            mapOf(
+                "title" to "${project.name} - ${file.name}",
+                "text" to textTemplate.format(code.cleaned),
+                "tags" to mutableListOf(language).also {
                     "projects/${project.name}".takeIf{
                         BearCastUserSettings.instance.isAddProjectNameTag
                     }?.let(it::add)
                 }.joinToString(",")
-            )
+            ).forEach { k, v ->
+                this.addParameter(k, v)
+            }
 
             build()
         }

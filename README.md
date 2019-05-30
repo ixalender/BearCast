@@ -17,7 +17,7 @@ Plugin for JetBrains platform to save pieces of source code to the [Bear.app](ht
 ## Basic usage
 
 - Select the text you want to export to Bear.app.
-- Press `cmd + shit + b` 
+- Press <kbd>Cmd</kbd> + <kbd>Shit</kbd> + <kbd>B</kbd> 
 
 ## License
 
