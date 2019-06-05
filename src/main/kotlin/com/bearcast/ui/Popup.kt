@@ -1,4 +1,4 @@
-package com.bearcast
+package com.bearcast.ui
 
 import com.bearcast.BearCast.Companion.APP_NAME
 import com.intellij.notification.Notification

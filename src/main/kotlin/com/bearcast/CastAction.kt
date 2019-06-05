@@ -1,12 +1,14 @@
 package com.bearcast
 
+import com.bearcast.model.BearAppNote
 import com.bearcast.settings.BearCastUserSettings
+import com.bearcast.ui.Popup
+import com.bearcast.url.BearAppUrl
 import com.intellij.ide.BrowserUtil
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.CommonDataKeys
-import org.apache.http.client.utils.URIBuilder
 
 class CastAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
@@ -32,26 +34,20 @@ class CastAction : AnAction() {
         }
 
         val code = Code(selected)
-
         val language = file.language.displayName.toLowerCase()
         val textTemplate = """```$language${System.lineSeparator()}%s${System.lineSeparator()}```"""
 
-        val query = URIBuilder(ConfigRepo.load().bear.createUrl).apply {
-            mapOf(
-                "title" to "${project.name} - ${file.name}",
-                "text" to textTemplate.format(code.cleaned),
-                "tags" to mutableListOf(language).also {
-                    "projects/${project.name}".takeIf{
-                        BearCastUserSettings.instance.isAddProjectNameTag
-                    }?.let(it::add)
-                }.joinToString(",")
-            ).forEach { k, v ->
-                this.addParameter(k, v)
+        val bearAppNote = BearAppNote(
+            title = "${project.name} - ${file.name}",
+            text = textTemplate.format(code.cleaned),
+            tags = mutableListOf(language).also {
+                "projects/${project.name}".takeIf {
+                    BearCastUserSettings.instance.isAddProjectNameTag
+                }?.let(it::add)
             }
+        )
+        val url = BearAppUrl(ConfigRepo.load().bear.createUrl).forNote(bearAppNote)
 
-            build()
-        }
-
-        BrowserUtil.browse(query.toString().replace("+", "%20"))
+        BrowserUtil.browse(url)
     }
 }
