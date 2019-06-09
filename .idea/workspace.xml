@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e3596e8-4ef2-4961-aafc-e05e554b9d28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/CastAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/CastAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/Popup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/ui/Popup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,13 +74,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/url/BearAppUrl.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-              <folding>
-                <element signature="e#26#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -125,6 +122,7 @@
       <find>query</find>
       <find>URI</find>
       <find>Uri</find>
+      <find>1.2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,10 +154,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/SettingsPanel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastUserConfig.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastSettings.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastUserSettings.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/BearConfig.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/Code.kt" />
@@ -179,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/CastAction.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/bearcast/url/BearAppUrlTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/url/BearAppUrl.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -194,7 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,33 +231,6 @@
               <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
-              <item name="url" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,20 +254,11 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="bearcast" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
-              <item name="url" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +277,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44478846" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -343,13 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in bearcast_test">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.bearcast [fatJar]">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -367,6 +323,12 @@
       <setting name="replType" value="0" />
       <module name="" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle" singleton="true">
       <ExternalSystemSettings>
@@ -387,7 +349,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="bearcast [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="bearcast [fatJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -398,7 +360,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="fatJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -451,19 +413,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bearcast_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bearcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bearcast" />
-      <option name="MAIN_CLASS_NAME" value="com.bearcast.CodeTest" />
-      <option name="METHOD_NAME" value="test cleaned simple" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -487,18 +443,18 @@
     <list>
       <item itemvalue="Gradle.Plugin" />
       <item itemvalue="Gradle.bearcast [runIde]" />
-      <item itemvalue="Gradle.bearcast [clean]" />
-      <item itemvalue="JUnit.CodeTest" />
+      <item itemvalue="Gradle.bearcast [fatJar]" />
       <item itemvalue="JUnit.All in bearcast_test" />
       <item itemvalue="JUnit.BearAppUrlTest.test url generation" />
+      <item itemvalue="JUnit.Whole project" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.bearcast [fatJar]" />
         <item itemvalue="JUnit.All in bearcast_test" />
+        <item itemvalue="JUnit.Whole project" />
         <item itemvalue="JUnit.BearAppUrlTest.test url generation" />
         <item itemvalue="Gradle.bearcast [runIde]" />
-        <item itemvalue="Gradle.bearcast [clean]" />
-        <item itemvalue="JUnit.CodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -529,12 +485,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BearAppUrlTest_test_url_generation - 2019.06.05 at 21h 29m 57s.xml">
-      <configuration name="BearAppUrlTest.test url generation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BearAppUrlTest_test_url_generation - 2019.06.05 at 21h 30m 20s.xml">
-      <configuration name="BearAppUrlTest.test url generation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BearAppUrlTest_test_url_generation - 2019.06.05 at 21h 30m 48s.xml">
       <configuration name="BearAppUrlTest.test url generation" configurationId="JUnit" />
     </history-entry>
@@ -559,6 +509,12 @@
     <history-entry file="All_in_bearcast_test - 2019.06.05 at 21h 35m 14s.xml">
       <configuration name="All in bearcast_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Whole_project - 2019.06.09 at 16h 08m 20s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bearcast_test - 2019.06.09 at 16h 08m 44s.xml">
+      <configuration name="All in bearcast_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="50286000" />
@@ -576,7 +532,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3239766" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.322807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,7 +550,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.20826833" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.20826833" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Leiningen" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -650,13 +606,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/form/SettingsFormBase.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/form/SettingsForm.kt" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/5197d14def5739f3438cac7e2f3be3a11db4b7d7/ideaIC-LATEST-EAP-SNAPSHOT-sources.jar!/com/intellij/openapi/options/UnnamedConfigurable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -676,13 +625,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/bearcast/SettingsFormTest.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastSettings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -736,16 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/BearAppQuery.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#22#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/BearAppQuery.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/Code.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -802,13 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/jsoup-1.11.3-sources.jar!/org/jsoup/select/QueryParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jsoup-1.11.3-sources.jar!/org/jsoup/select/QueryParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/url/AppUrl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -843,6 +770,20 @@
           <folding>
             <element signature="e#26#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
