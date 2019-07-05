@@ -49,6 +49,7 @@
                     text="Cast to Bear"
                     description="Cast selected text to Bear">
                 <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift B" />
+                <keyboard-shortcut keymap="$default" first-keystroke="ctrl meta B" />
             </action>
         </group>
     </actions>
