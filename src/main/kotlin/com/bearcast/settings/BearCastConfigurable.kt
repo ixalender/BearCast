@@ -10,6 +10,7 @@ import javax.swing.JPanel
 class BearCastConfigurable : Configurable {
     private lateinit var panel: JPanel
     private lateinit var addProjectNameTagCheckBox: JCheckBox
+    private lateinit var addLanguageTagCheckBox: JCheckBox
 
     @Nls
     override fun getDisplayName() = BearCast.APP_NAME
@@ -19,18 +20,21 @@ class BearCastConfigurable : Configurable {
         val settings = BearCastUserSettings.instance
 
         addProjectNameTagCheckBox.isSelected = settings.isAddProjectNameTag
+        addLanguageTagCheckBox.isSelected = settings.isAddLanguageTag
     }
 
     override fun isModified(): Boolean {
         val settings = BearCastUserSettings.instance
 
-        return addProjectNameTagCheckBox.isSelected != settings.isAddProjectNameTag
+        return addProjectNameTagCheckBox.isSelected != settings.isAddProjectNameTag ||
+                addLanguageTagCheckBox.isSelected != settings.isAddLanguageTag
     }
 
     override fun apply() {
         val settings = BearCastUserSettings.instance
 
         settings.isAddProjectNameTag = addProjectNameTagCheckBox.isSelected
+        settings.isAddLanguageTag = addLanguageTagCheckBox.isSelected
     }
 
     override fun createComponent(): JComponent {

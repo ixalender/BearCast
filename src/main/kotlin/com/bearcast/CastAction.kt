@@ -40,11 +40,17 @@ class CastAction : AnAction() {
         val bearAppNote = BearAppNote(
             title = "${project.name} - ${file.name}",
             text = textTemplate.format(code.cleaned),
-            tags = mutableListOf(language).also {
-                "projects/${project.name}".takeIf {
-                    BearCastUserSettings.instance.isAddProjectNameTag
-                }?.let(it::add)
-            }
+            tags = mutableListOf<String>()
+                .also {
+                    "projects/${project.name}".takeIf {
+                        BearCastUserSettings.instance.isAddProjectNameTag
+                    }?.let(it::add)
+                }
+                .also {
+                    language.takeIf {
+                        BearCastUserSettings.instance.isAddLanguageTag
+                    }?.let(it::add)
+                }
         )
         val url = BearAppUrl(ConfigRepo.load().bear.createUrl).forNote(bearAppNote)
 

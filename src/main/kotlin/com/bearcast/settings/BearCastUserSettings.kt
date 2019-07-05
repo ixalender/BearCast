@@ -27,6 +27,12 @@ class BearCastUserSettings: PersistentStateComponent<BearCastSettings> {
             settings.addProjectNameTag = addProjectNameTag
         }
 
+    var isAddLanguageTag: Boolean
+        get() = settings.addLanguageTag
+        set(addLanguageTag) {
+            settings.addLanguageTag = addLanguageTag
+        }
+
     companion object {
         val instance: BearCastUserSettings
             get() = ServiceManager.getService(BearCastUserSettings::class.java)
