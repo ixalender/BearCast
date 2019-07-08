@@ -21,6 +21,12 @@ class BearCastUserSettings: PersistentStateComponent<BearCastSettings> {
         settings = state
     }
 
+    var defaultTags: List<String>
+        get() = settings.defaultTags
+        set(defaultTags) {
+            settings.defaultTags = defaultTags
+        }
+
     var isAddProjectNameTag: Boolean
         get() = settings.addProjectNameTag
         set(addProjectNameTag) {
