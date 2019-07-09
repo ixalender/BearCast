@@ -4,7 +4,6 @@ import com.bearcast.BearCast
 import com.intellij.openapi.options.Configurable
 import org.jetbrains.annotations.Nls
 import javax.swing.JCheckBox
-import javax.swing.JComponent
 import javax.swing.JPanel
 import javax.swing.JTextField
 
@@ -37,16 +36,14 @@ class BearCastConfigurable : Configurable {
     override fun apply() {
         val settings = BearCastUserSettings.instance
 
-        settings.defaultTags = defaultTagsTextField.text.splitToSequence(",").toList().map {
-            it.trim()
-        }
+        settings.defaultTags = defaultTagsTextField
+            .text.splitToSequence(",")
+            .toList().map(String::trim)
         settings.isAddProjectNameTag = addProjectNameTagCheckBox.isSelected
         settings.isAddLanguageTag = addLanguageTagCheckBox.isSelected
     }
 
-    override fun createComponent(): JComponent {
-        return panel
-    }
+    override fun createComponent() = panel
 
     override fun reset() {
         init()

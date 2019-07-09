@@ -51,6 +51,9 @@ class CastAction : AnAction() {
                         BearCastUserSettings.instance.isAddLanguageTag
                     }?.let(it::add)
                 }
+                .also {
+                    BearCastUserSettings.instance.defaultTags.let(it::addAll)
+                }
         )
         val url = BearAppUrl(ConfigRepo.load().bear.createUrl).forNote(bearAppNote)
 
