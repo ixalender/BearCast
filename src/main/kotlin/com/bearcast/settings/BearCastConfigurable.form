@@ -38,7 +38,7 @@
             <properties>
               <font size="12"/>
               <foreground color="-8158333"/>
-              <text value="ex. #projects/BearCast"/>
+              <text value="E.g. #projects/BearCast"/>
             </properties>
           </component>
           <component id="aee15" class="javax.swing.JLabel">
@@ -48,7 +48,7 @@
             <properties>
               <font size="12"/>
               <foreground color="-8158333"/>
-              <text value="ex. #Kotlin"/>
+              <text value="E.g. #Kotlin"/>
             </properties>
           </component>
           <component id="97c69" class="javax.swing.JCheckBox" binding="addLanguageTagCheckBox">
@@ -86,7 +86,7 @@
             <properties>
               <font size="12"/>
               <foreground color="-8158333"/>
-              <text value="ex. Code, Work"/>
+              <text value="E.g. Code, Work"/>
             </properties>
           </component>
         </children>

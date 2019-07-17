@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e3596e8-4ef2-4961-aafc-e05e554b9d28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,12 +73,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -153,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/BearCastResources.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/SettingsPanel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastUserConfig.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastSettings.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastUserSettings.kt" />
@@ -177,12 +171,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/url/BearAppUrl.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="79" />
-    <option name="y" value="23" />
+    <option name="y" value="19" />
     <option name="width" value="1282" />
     <option name="height" value="877" />
   </component>
@@ -193,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,6 +227,25 @@
               <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="bearcast" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="BearCastConfigurable" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="bearcast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bearcast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +291,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44478846" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.BearCastConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -305,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.bearcast [fatJar]">
+  <component name="RunManager" selected="Gradle.bearcast [runIde]">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -450,11 +464,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.bearcast [runIde]" />
         <item itemvalue="Gradle.bearcast [fatJar]" />
         <item itemvalue="JUnit.All in bearcast_test" />
         <item itemvalue="JUnit.Whole project" />
         <item itemvalue="JUnit.BearAppUrlTest.test url generation" />
-        <item itemvalue="Gradle.bearcast [runIde]" />
       </list>
     </recent_temporary>
   </component>
@@ -520,10 +534,9 @@
     <option name="totallyTimeSpent" value="50286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="23" width="1282" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="896" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22698908" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20208333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -532,7 +545,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.322807" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32265446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,7 +563,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.20826833" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.18541667" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Leiningen" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -601,9 +614,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/form/SettingsForm.form" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/80852e6b02067b26385f5f0ef8e2174f0cd4576/ideaIC-LATEST-EAP-SNAPSHOT/lib/annotations.jar!/org/jetbrains/annotations/Nls.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/form/SettingsFormBase.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/form/SettingsForm.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/5197d14def5739f3438cac7e2f3be3a11db4b7d7/ideaIC-LATEST-EAP-SNAPSHOT-sources.jar!/com/intellij/openapi/options/UnnamedConfigurable.java">
@@ -782,10 +792,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="300">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/bearcast/settings/BearCastConfigurable.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
