@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.bearcast</id>
     <name>BearCast</name>
-    <version>1.3</version>
+    <version>1.4</version>
     <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
 
     <description><![CDATA[
@@ -9,9 +9,11 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    <h2>v1.3</h2>
+    <h2>v1.4</h2>
+    <h3>New options</h3>
     <ul>
-        <li>Now you can add project name as a tag to a new Bear note (look at Preferences - Tools - BearCast)</li>
+        <li>Add the name of the programming language of a current file as a tag</li>
+        <li>Add a list of default tags (e.g. work, code)</li>
     </ul>
     ]]></change-notes>
 
