@@ -5,7 +5,33 @@
     <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
 
     <description><![CDATA[
-      Plugin for IntelliJ platform for saving pieces of source code to Bear app.
+      Plugin for IntelliJ platform for saving pieces of source code to Bear app.<br/>
+
+        <h3>Basic usage</h3>
+        <ul>
+            <li>Select the text you want to export to Bear.app.</li>
+            <li>Press <kbd>Cmd</kbd> + <kbd>Shit</kbd> + <kbd>B</kbd> or <kbd>Cmd</kbd> + <kbd>Ctrl</kbd> + <kbd>B</kbd></li>
+        </ul>
+        <h3>Options</h3>
+        <pre><b>Preferences</b> > <b>Tools</b> > <b>BearCast</b></pre>
+        <table border="0" cellpadding="5">
+            <tr>
+                <th align="left">Options</th>
+                <th align="left">Description</th>
+            </tr>
+            <tr>
+                <td><pre>Default tags</pre></td>
+                <td>Tags that will always be added to Bear's notes (e.g. code, work)</td>
+            </tr>
+            <tr>
+                <td><pre>Add project name tag</pre></td>
+                <td>Project name will be automatically added as a tag</td>
+            </tr>
+            <tr>
+                <td><pre>Add language tag</pre></td>
+                <td>Name of the programming language of a current file will be added as a tag</td>
+            </tr>
+        </table>
     ]]></description>
 
     <change-notes><![CDATA[
