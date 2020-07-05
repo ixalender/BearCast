@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a387ce5-82f5-4802-a46e-42c1ad162f20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bearcast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bearcast.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bearcast.iws" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bearcast.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bearcast.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +125,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="bearcast" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -137,10 +144,6 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectId" id="1P0fAIdhhMRGgX247DKVbRgwodU" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -151,6 +154,12 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -160,31 +169,22 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bearcast.ipr" />
-    <property name="settings.editor.selected.configurable" value="preferences.BearCastConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Gradle.BearCast [fatJar]">
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -202,12 +202,15 @@
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
-      <setting name="replType" value="0" />
+      <setting name="replType" value="NREPL" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
     </configuration>
@@ -293,11 +296,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BearCast [fatJar]" />
         <item itemvalue="Gradle.BearCast [clean]" />
         <item itemvalue="Gradle.BearCast [runIde]" />
-        <item itemvalue="Gradle.BearCast [fatJar]" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -328,5 +343,39 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="117" width="937" height="666" key="#Project_Structure" timestamp="1593973863879">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" width="937" height="666" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1593973863879" />
+    <state width="1440" height="261" key="GridCell.Tab.0.bottom" timestamp="1593976154344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593976154344" />
+    <state width="1440" height="261" key="GridCell.Tab.0.center" timestamp="1593976154342">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593976154342" />
+    <state width="1440" height="261" key="GridCell.Tab.0.left" timestamp="1593976154341">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593976154341" />
+    <state width="1440" height="261" key="GridCell.Tab.0.right" timestamp="1593976154343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593976154343" />
+    <state x="222" y="66" key="SettingsEditor" timestamp="1593975693274">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="222" y="66" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593975693274" />
+    <state x="383" y="219" width="673" height="462" key="find.popup" timestamp="1593976149966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="219" width="673" height="462" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593976149966" />
+    <state x="383" y="196" width="673" height="676" key="search.everywhere.popup" timestamp="1593976172290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="196" width="673" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593976172290" />
   </component>
 </project>
