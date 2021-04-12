@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3596e8-4ef2-4961-aafc-e05e554b9d28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearcast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearcast.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearcast.iws" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearcast.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearcast.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bearcast.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/CastAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bearcast/CastAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +120,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.bearcast [fatJar]">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -139,20 +135,17 @@
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
-      <setting name="replType" value="0" />
+      <setting name="replType" value="NREPL" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="BearCast [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -366,33 +359,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="84" key="#Project_Structure" timestamp="1576270194024">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1920" height="350" key="GridCell.Tab.0.bottom" timestamp="1618224987183">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="255" y="84" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1576270194024" />
-    <state width="1400" height="242" key="GridCell.Tab.0.bottom" timestamp="1576270555423">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1920" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1618224987183" />
+    <state width="1920" height="350" key="GridCell.Tab.0.center" timestamp="1618224987182">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1400" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576270555423" />
-    <state width="1400" height="242" key="GridCell.Tab.0.center" timestamp="1576270555421">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1920" height="350" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1618224987182" />
+    <state width="1920" height="350" key="GridCell.Tab.0.left" timestamp="1618224987182">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1400" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576270555421" />
-    <state width="1400" height="242" key="GridCell.Tab.0.left" timestamp="1576270555420">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1920" height="350" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1618224987182" />
+    <state width="1920" height="350" key="GridCell.Tab.0.right" timestamp="1618224987183">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1400" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576270555420" />
-    <state width="1400" height="242" key="GridCell.Tab.0.right" timestamp="1576270555422">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1400" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576270555422" />
-    <state x="458" y="115" key="SettingsEditor" timestamp="1576270693983">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="115" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576270693983" />
-    <state x="385" y="206" width="670" height="676" key="search.everywhere.popup" timestamp="1576270782054">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="206" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1576270782054" />
+    <state width="1920" height="350" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1618224987183" />
   </component>
 </project>
